@@ -9,6 +9,38 @@
       .page_title {
         text-align: center;
       }
+      
+        /* 强制列表样式显示 */
+  ul {
+    list-style-type: disc !important;
+    list-style-position: outside !important;
+    padding-left: 20px !important;
+    margin-left: 0 !important;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    display: list-item !important;
+  }
+  
+  /* 针对details内的ul额外设置 */
+  details ul {
+    list-style-type: disc !important;
+  }
+  
+  /* 图片样式 */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* details样式 */
+  details {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+  }
     </style>
     <!-- 玩完了 -->
   </head>
@@ -263,3 +295,4 @@
     </details>
   </body>
 </html>
+
